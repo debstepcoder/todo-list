@@ -1,10 +1,70 @@
 .App {
   text-align: center;
+  background: #EDEADE;
+  padding: 30px;
+  border: 2px;
+}
+
+.button-todo {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #181818;
+  border-radius: 5px;
+}
+
+.button-todo:hover {
+  color: black;
+  background-color: greenyellow;
+  border-radius: 5px;
+  
+}
+
+.button-delete {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #181818;
+  border-radius: 5px;
+}
+
+.button-delete:hover {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.button-edit {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #181818;
+  border-radius: 5px;
+} 
+
+.button-edit:hover {
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.spacing {
+  padding: 5px;
+  margin: 5px;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.main-div {
+  min-height: 100vh;
+  background: #060822;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
